@@ -1,0 +1,26 @@
+{
+  "name": "finance-logger",
+  "version": "1.0.0",
+  "description": "Finance Logger",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bardiesel/finance-logger.git"
+  },
+  "author": "Bardia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bardiesel/finance-logger/issues"
+  },
+  "homepage": "https://github.com/Bardiesel/finance-logger#readme",
+  "devDependencies": {
+    "ts-loader": "^9.1.2",
+    "typescript": "^4.2.4",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0"
+  }
+}

@@ -1,7 +1,7 @@
-import { Invoice } from './models/invoice.js';
-import { Payment } from './models/payment.js';
-import { hasFormatter } from './interfaces/hasFormatter.js';
-import { listTemplate } from './models/listTemplate.js';
+import { Invoice } from './models/invoice';
+import { Payment } from './models/payment';
+import { hasFormatter } from './interfaces/hasFormatter';
+import { listTemplate } from './models/listTemplate';
 
 const form = document.querySelector('.new-item-form') as HTMLFormElement;
 // inputs
